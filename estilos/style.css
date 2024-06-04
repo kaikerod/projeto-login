@@ -72,6 +72,15 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    font-size: 2em;
+    width: 40px;
+}
+
+div.campo > input {
+    transform: translateY(-10px);
+}
+
 form > input[type=submit] {
     display: block;
     border: none;
@@ -86,6 +95,11 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
     background-color: #000000;
+}
+
+form > div.campo > input {
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 form > a.botao {
